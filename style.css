@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    line-height: 150%;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);    
+}
+
+.container {
+    max-width: 720px;
+    min-width: 375px;
+    background-color: white;
+    padding: 2em;
+    border-radius: 24px;
+
+    ul {
+        padding: 0 1.5em;
+    }
+
+    ol {
+        padding: 0 1.5em;
+    }
+}
+
+
+img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.preparation-time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 12px;
+    padding: 1em 1.5em;
+    margin: 1.5em 0;
+
+    h3 {
+        color: hsl(332, 51%, 32%);
+        margin: 0;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+    li::marker {
+        color: hsl(332, 51%, 32%);
+    }
+}
+
+li {
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+}
+
+ol {
+    span {
+        font-weight: 600;
+    }
+}
+
+li::marker, ol::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        padding: 0.75em 2em;
+    }
+
+    td:last-child {
+        color: hsl(14, 45%, 36%);
+        font-weight: 700;
+    }
+
+    tr:last-child {
+        td {
+            border-bottom: 0px;
+        }
+    }
+}
+
+hr {
+    margin: 1.5em 0;
+}
+
+
+
+
